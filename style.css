@@ -1,0 +1,64 @@
+body, h4 {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    float: left;
+}
+
+ul {
+    border-radius: 6px;
+    margin: 20px;
+    padding: 8px;
+    background-color: #ccc;
+    list-style: none;
+    min-width: 200px;
+}
+ul li {
+    height: 30px;
+    width: 200px;
+    margin:6px;
+}
+
+li.slot.allowed {
+    background-color: #fff;
+}
+
+li.slot {
+    background-color: #ddd;
+}
+
+.item {
+    cursor: move;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+.item.allowed-move {
+    background-color: darkblue;
+}
+
+.over {
+    background-color: red !important;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    z-index: 2;
+    /* display: none; */
+}
+
+form {
+    display: block;
+    overflow: hidden;
+}
+button {
+    padding: 6px;
+    border-radius: 6px;
+    outline: none;
+    background-color: lightblue;
+}

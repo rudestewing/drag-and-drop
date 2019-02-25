@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="">
+        <div id="container">
+            <ul class="wrapper">
+                <h4> Rack </h4>
+                <li class="slot allowed"> 
+                    <div class="item allowed-move" data-value="device-2" > device 1 </div> 
+                    <input type="checkbox" name="unit[]" value="1">
+                </li>
+                <li class="slot allowed" >
+                    <input type="checkbox" name="unit[]" value="2">
+                </li>
+                <li class="slot allowed" >
+                    <input type="checkbox" name="unit[]" value="3">
+                </li>
+                <li class="slot"> 
+                    <div class="item allowed-move" data-value="device-2" > device 2 </div> 
+                    <input type="checkbox" name="unit[]" value="4"></li>
+                <li class="slot">
+                    <div class="item"> device 3 </div> 
+                    <input type="checkbox" name="unit[]" value="5"></li>
+                <li class="slot" >
+                    <input type="checkbox" name="unit[]" value="6">
+                </li>
+                <li class="slot" >
+                    <input type="checkbox" name="unit[]" value="7">
+                </li>
+            </ul>
+        </div>
+    </form>
+    
+    <button type="button"> submit data </button>
+
+    <script src="./jquery-3.3.1.js"></script>
+    <script src="./data.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
